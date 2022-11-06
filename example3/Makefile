@@ -1,4 +1,4 @@
-.PHONY: all assembly clean
+.PHONY: all assembly run clean
 
 CFLAGS=-g -Wno-incompatible-pointer-types -no-pie -fno-stack-protector -z norelro -z execstack -D_FORTIFY_SOURCE=0
 
